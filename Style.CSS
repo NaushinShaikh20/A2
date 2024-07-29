@@ -81,20 +81,29 @@ th {
   border: 1px solid #ddd;
 }
 
-/* Table cell styles */
-td {
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
   padding: 10px;
   border: 1px solid #ddd;
 }
 
-/* Alternating row colors */
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+thead {
+  background-color: #f4f4f4;
 }
 
-/* Hover effect for rows */
-tr:hover {
-  background-color: #f1f1f1;
+/* Blockquote Styles */
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
 
   }
 }
